@@ -14,7 +14,7 @@ const pathMap = {
 /**
  * Icon
  * @class Icon
- * @param {Graphics} graphics - Graphics instance
+ * @param {Graphics} graphics 
  * @extends {Component}
  * @ignore
  */
@@ -61,7 +61,7 @@ class Icon extends Component {
   }
 
   /**
-   * Set states of the current drawing shape
+   * 设置当前图形形状的状态
    * @ignore
    * @param {string} type - Icon type ('arrow', 'cancel', custom icon name)
    * @param {string} iconColor - Icon foreground color
